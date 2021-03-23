@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+:root{
+    --main-bg-color: brown;
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+.max-width1{
+    max-width: 80vw;
+}
+.max-width2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 0 14px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+} 
+
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}

@@ -1,0 +1,36 @@
+.navigation{
+    font-family: 'Oswald', sans-serif;;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    height: 95px;
+}
+.footer{
+    height: 50px;
+}
+
+.navleft{
+    font-size: 20px;
+    display: flex;
+}
+.navleft ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+.navleft ul{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.navleft ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navright{
+
+}
